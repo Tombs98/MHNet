@@ -9,7 +9,7 @@ python train.py
 
 ## Evaluation
 
-### Download the [model](https://drive.google.com/file/d/1QwQUVbk6YVOJViCsOKYNykCsdJSVGRtb/view?usp=sharing) and place it in ./pre-trained/
+### Download the [model](https://drive.google.com/file/d/1JJUwbH5cYEaTvtQ8jGF406ZKfDqXyNFD/view?usp=share_link) and place it in ./pre-trained/
 
 #### Testing on GoPro dataset
 - Download [images](https://drive.google.com/drive/folders/1a2qKfXWpNuTGOm2-Jex8kfNSzYJLbqkf?usp=sharing) of GoPro and place them in `./Datasets/GoPro/test/`
