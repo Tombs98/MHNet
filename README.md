@@ -11,13 +11,13 @@
 ## Network Architecture
 <table>
   <tr>
-    <td> <img src = "./fig/network.png" width="500"> </td>
+    <td> <img align="center" src = "./fig/network.png" width="500"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Overall Framework of MHNet</b></p></td>
   </tr>
     <tr>
-    <td> <img src = "./fig/dau.png" width="500"> </td>
+    <td> <img align="center"  src = "./fig/dau.png" width="500"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Dual attention</b></p></td>
