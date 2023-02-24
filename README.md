@@ -17,7 +17,7 @@
     <td><p align="center"><b>Overall Framework of MHNet</b></p></td>
   </tr>
     <tr>
-    <td align="center"> <img   src = "./fig/dau.png" width="500"> </td>
+    <td align="center"> <img src = "./fig/dau.png" width="500"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Dual attention</b></p></td>
@@ -40,9 +40,7 @@ Install warmup scheduler
 cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 ```
 
-## Quick Run
 
-To test the pre-trained models of [Deblurring](https://drive.google.com/file/d/1JJUwbH5cYEaTvtQ8jGF406ZKfDqXyNFD/view?usp=share_link), [Deraining](https://drive.google.com/file/d/1nGwHL2wBnYbE_yxH6WxvpTM_pm0ggyvW/view?usp=share_link)
 
 
 ## Training and Evaluation
