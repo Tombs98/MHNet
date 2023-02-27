@@ -25,7 +25,7 @@ TRAINING:
   RESUME: True
   TRAIN_PS: 256
   VAL_PS: 256
-  TRAIN_DIR: './Datasets/GoPro/test' # path to training data
+  TRAIN_DIR: './Datasets/GoPro/train' # path to training data
   VAL_DIR: './Datasets/GoPro/test'    # path to validation data
   SAVE_DIR: './checkpoints'     # path to save models and images
   # SAVE_IMAGES: False
