@@ -161,24 +161,3 @@ class DataLoaderTest(Dataset):
         tar_img = TF.to_tensor(tar_img)
         return inp, tar_img
 
-class DataLoaderTest2(Dataset):
-    def __init__(self, inp_dir, img_options):
-        super(DataLoaderTest2, self).__init__()
-
-        inp_files = sorted(os.listdir(inp_dir))
-        self.inp_filenames = [os.path.join(inp_dir, x) for x in inp_files if is_image_file(x)]
-
-        self.inp_size = len(self.inp_filenames)
-        self.img_options = img_options
-
-    def __len__(self):
-        return self.inp_size
-
-    def __getitem__(self, index):
-
-        path_inp = self.inp_filenames[index]
-        filename = os.path.splitext(os.path.split(path_inp)[-1])[0]
-        inp = Image.open(path_inp)
-
-        inp = TF.to_tensor(inp)
-        return inp, filename
