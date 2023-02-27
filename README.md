@@ -11,8 +11,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixed-hierarchy-network-for-image-restoration/single-image-deraining-on-test100)](https://paperswithcode.com/sota/single-image-deraining-on-test100?p=mixed-hierarchy-network-for-image-restoration)
 	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixed-hierarchy-network-for-image-restoration/single-image-deraining-on-rain100l)](https://paperswithcode.com/sota/single-image-deraining-on-rain100l?p=mixed-hierarchy-network-for-image-restoration)
-	
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixed-hierarchy-network-for-image-restoration/image-deblurring-on-gopro)](https://paperswithcode.com/sota/image-deblurring-on-gopro?p=mixed-hierarchy-network-for-image-restoration)
+
 
 <hr />
 
@@ -83,19 +82,11 @@ The following is a BibTeX reference:
 ```
 @misc{gao2023mix,
   doi = {10.48550/ARXIV.2302.09554},
-  
   url = {https://arxiv.org/abs/2302.09554},
-  
   author = {Gao, Hu and Dang, Depeng},
-  
-  
   title = {Mixed Hierarchy Network for Image Restoration},
-  
   publisher = {arXiv},
-  
-  year = {2023},
-  
-  copyright = {arXiv.org perpetual, non-exclusive license}
+  year = {2023}
 }
 
 
