@@ -76,7 +76,31 @@ Training and Testing codes for deblurring and deraining  are provided in their r
   <summary> <strong>Image Deraining</strong> (click to expand) </summary>
 <img src = "./fig/deblur.png" width="900"></details>
 
- 
+ ## Citations
+If our code helps your research or work, please consider citing our paper.
+The following is a BibTeX reference:
+
+```
+@misc{gao2023mix,
+  doi = {10.48550/ARXIV.2302.09554},
+  
+  url = {https://arxiv.org/abs/2302.09554},
+  
+  author = {Gao, Hu and Dang, Depeng},
+  
+  
+  title = {Mixed Hierarchy Network for Image Restoration},
+  
+  publisher = {arXiv},
+  
+  year = {2023},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+```
+
 
 
 
