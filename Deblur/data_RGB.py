@@ -18,14 +18,3 @@ def get_test_data2(rgb_dir, img_options):
     return DataLoaderTest2(rgb_dir, img_options)
 
 
-def debu():
-    from config import Config
-    opt = Config('training.yml')
-    train_dir = opt.TRAINING.TRAIN_DIR
-    train_dataset = get_training_data(train_dir, {'patch_size': opt.TRAINING.TRAIN_PS})
-    test  = os.path.join('./Datasets/', 'GoPr', 'test', 'input')
-    test_dataset = get_test_data(test, {'patch_size': opt.TRAINING.VAL_PS})
-    print("1", len(test_dataset))
-    print(len(test_dataset[0]))
-    print(test_dataset[0][0].size())
-# debu()
