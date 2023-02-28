@@ -80,13 +80,11 @@ If our code helps your research or work, please consider citing our paper.
 The following is a BibTeX reference:
 
 ```
-@misc{gao2023mix,
-  doi = {10.48550/ARXIV.2302.09554},
-  url = {https://arxiv.org/abs/2302.09554},
-  author = {Gao, Hu and Dang, Depeng},
-  title = {Mixed Hierarchy Network for Image Restoration},
-  publisher = {arXiv},
-  year = {2023}
+@article{gao2023mixed,
+  title={Mixed Hierarchy Network for Image Restoration},
+  author={Gao, Hu and Dang, Depeng},
+  journal={arXiv preprint arXiv:2302.09554},
+  year={2023}
 }
 
 
