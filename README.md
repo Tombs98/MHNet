@@ -27,7 +27,7 @@
     <td><p align="center"><b>Overall Framework of MHNet</b></p></td>
   </tr>
     <tr>
-    <td align="center"> <img src = "./fig/dau.png" width="500"> </td>
+    <td align="center"> <img src = "./fig/dau.png" width="800"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Dual attention</b></p></td>
