@@ -92,12 +92,12 @@ def proc(filename):
 
 
 def te():
-    datasets = ['GoPr']
+    datasets = ['Rain100L', 'Rain100H', 'Test100', 'Test1200']
 
     for dataset in datasets:
 
-        file_path = os.path.join('resultsmash_g', dataset)
-        gt_path = os.path.join('Datasets/GoPr/test', 'target')
+        file_path = os.path.join('results' , dataset)
+        gt_path = os.path.join('Datasets','test', dataset,  'target')
 
         path_list = natsorted(glob(os.path.join(file_path, '*.png')) + glob(os.path.join(file_path, '*.jpg')))
         gt_list = natsorted(glob(os.path.join(gt_path, '*.png')) + glob(os.path.join(gt_path, '*.jpg')))
@@ -106,11 +106,21 @@ def te():
         assert len(gt_list) != 0, "Target files not found"
         index = 0
         psnr, ssim = [], []
-        img_files = [(i, j) for i, j in zip(gt_list, path_list)]
-        for i in range(len(img_files)):
-            res = proc(img_files[i])
-            psnr.append(res[0])
-            ssim.append(res[1])
+        
+         
+        img_files =[(i, j) for i,j in zip(gt_list,path_list)]
+        with concurrent.futures.ProcessPoolExecutor(max_workers=10) as executor:
+            for filename, PSNR_SSIM in zip(img_files, executor.map(proc, img_files)):
+              psnr.append(PSNR_SSIM[0])
+              ssim.append(PSNR_SSIM[1])
+
+
+
+        #img_files = [(i, j) for i, j in zip(gt_list, path_list)]
+        #for i in range(len(img_files)):
+         #   res = proc(img_files[i])
+          #  psnr.append(res[0])
+           # ssim.append(res[1])
         # with concurrent.futures.ProcessPoolExecutor(max_workers=10) as executor:
         #     for filename, PSNR_SSIM in zip(img_files, executor.map(proc, img_files)):
         #         index = index + 1
