@@ -45,7 +45,7 @@ class BasicConv(nn.Module):
         if self.relu is not None:
             x = self.relu(x)
         return x
-#
+
 class ChannelPool(nn.Module):
     def forward(self, x):
         return torch.cat( (torch.max(x,1)[0].unsqueeze(1), torch.mean(x,1).unsqueeze(1)), dim=1 )
