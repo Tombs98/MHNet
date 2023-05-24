@@ -34,8 +34,14 @@ python test.py --dataset HIDE
 ```
 
 
-#### To reproduce PSNR/SSIM scores of the paper on GoPro and HIDE datasets, run 
+#### To reproduce PSNR scores of the paper on GoPro and HIDE datasets, run 
 
 ```
-python evaluate_PSNR_SSIM.py 
+python test_res.py 
+```
+
+#### To reproduce SSIM scores of the paper on GoPro and HIDE datasets, run 
+
+```
+python eval.py
 ```
