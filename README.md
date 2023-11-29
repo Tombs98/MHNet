@@ -5,7 +5,7 @@
 [![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](http://arxiv.org/abs/2302.09554)
 	
 	
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixed-hierarchy-network-for-image-restoration/single-image-deraining-on-test1200)](https://paperswithcode.com/sota/single-image-deraining-on-test1200?p=mixed-hierarchy-network-for-image-restoration)
+
 	
 
 
