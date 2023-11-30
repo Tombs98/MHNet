@@ -32,5 +32,5 @@ python test.py
 
 #### To reproduce PSNR/SSIM scores of the paper, run
 ```
-python evaluate_PSNR_SSIM.py
+python eval.py
 ```
